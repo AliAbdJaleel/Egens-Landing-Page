@@ -12,3 +12,26 @@ body{
 .nav-item:hover .nav-link{
     color: #7153d9;
 }
+.main-subtitle{
+
+    font-size: 24px;
+    font-weight: 500;
+    color: #7153d9 ;
+}
+
+.main-title{
+    font-size: 65px;
+    font-weight: 500;
+}
+.main-p{
+    font-size: 24px;
+    color: #54545f;
+    font-weight: 400;
+}
+.main-btn{
+   background:  linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+   padding: 20px 55px;
+   text-decoration: none;
+   color: white;
+   border-radius: 35px;
+}
