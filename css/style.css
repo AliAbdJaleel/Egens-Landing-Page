@@ -3,6 +3,15 @@ body{
     font-family: 'Jost' , sans-serif;
 
 }
+
+.mybackground{
+background-color:#E9EDF3 !important ;
+/* transition: 1.5s ease-in; */
+}
+.mybackground.scrolled{
+    background-color: white !important ;
+
+}
 .nav-link{
     font-size: 19px;
     font-weight: 500;
