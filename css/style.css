@@ -95,3 +95,46 @@ box-shadow: 0px 12px 42px rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177
     font-size: 18px;
 
 }
+
+/* media queries */
+
+/* mobile screen */
+@media (max-width:576px) {
+    .banner-image{
+        margin-top: 40px;
+    }
+
+    .feature-card{
+        margin: 10px 0px;
+    }
+    .img2{
+        margin-top: 20px;
+    }
+    .main-subtitle{
+        font-size: 18px;
+        letter-spacing: 3px;
+    }
+    .main-title{
+        font-size: 36px;
+    }
+}
+
+/* tablet */
+@media (min-width:577px) and (max-width:991px) {
+   .main-title {
+    font-size: 50px;
+   }
+
+   .img2{
+    margin-top: 20px;
+}
+
+   .banner-image{
+    margin-top: 40px;
+}
+}
+
+/* large */
+@media (min-width:992px) {
+    
+}
